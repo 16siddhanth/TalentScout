@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  talentscout-app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY}
+      - DEBUG=${DEBUG:-False}
+      - MAX_CONVERSATION_LENGTH=${MAX_CONVERSATION_LENGTH:-50}
+      - ENABLE_ANALYTICS=${ENABLE_ANALYTICS:-True}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Optional: Redis for session management (for production scaling)
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
