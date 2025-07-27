@@ -11,7 +11,7 @@
 - **🔄 Conversation Flow Management**: Seamless progression through assessment stages
 - **👋 Smart Greeting & Exit**: Context-aware conversation handling
 
-### 🌟 Advanced Features (Bonus Implementations)
+### 🌟 Advanced Features 
 
 #### 🎭 Advanced Sentiment & Emotion Analysis
 - **Multi-layered Sentiment Detection**: Beyond basic positive/negative to nuanced emotional states
@@ -95,7 +95,7 @@ cp .env.example .env
 streamlit run app.py
 ```
 
-## 📖 Enhanced Usage Guide
+## 📖 Usage Guide
 
 ### 🎯 For Candidates
 1. **🌍 Language Selection**: Choose your preferred language from 10 options
@@ -121,9 +121,9 @@ streamlit run app.py
 6. **📊 Quality Analysis** → Real-time response quality feedback
 7. **🎉 Completion** → Comprehensive summary and next steps
 
-## 🛠 Advanced Technical Details
+## 🛠 Technical Details
 
-### 🏗 Enhanced Architecture
+### 🏗 Architecture
 ```
 ├── Frontend (Streamlit)
 │   ├── Enhanced UI Components
@@ -147,7 +147,7 @@ streamlit run app.py
     └── Concurrent Processing
 ```
 
-### 📚 Enhanced Libraries & Technologies
+### 📚 Libraries & Technologies
 
 #### Core Dependencies
 - `streamlit==1.29.0` - Enhanced web framework
@@ -176,7 +176,7 @@ streamlit run app.py
 - `validators==0.22.0` - Advanced validation
 - `phonenumbers==8.13.25` - Phone validation
 
-### 🎨 Enhanced UI Components
+### 🎨 UI Components
 
 #### 1. **Advanced Sentiment Analyzer**
 ```python
@@ -187,7 +187,7 @@ class AdvancedSentimentAnalyzer:
     - Adaptive feedback generation
 ```
 
-#### 2. **Enhanced Language Detector**
+#### 2. ** Language Detector**
 ```python
 class EnhancedLanguageDetector:
     - 10 language support
@@ -214,7 +214,7 @@ class DataHandler:
     - Export capabilities
 ```
 
-## 🔧 Advanced Configuration
+## 🔧 Configuration
 
 ### Environment Variables
 ```env
@@ -340,46 +340,39 @@ Respond with cultural awareness, technical accuracy, and emotional intelligence.
 - **Multi-Factor Authentication**: Enhanced security for admin access
 - **API Security**: Secure API endpoints for integrations
 
-## 🚧 Advanced Challenges & Solutions
+## 🚧 Challenges Faced & Solutions
 
-### Challenge 1: Multilingual Context Preservation
-**Problem**: Maintaining conversation context across language switches
-**Solution**: 
-- Implemented context-aware language detection
-- Created language-agnostic session state management
-- Developed cultural adaptation algorithms
-
-### Challenge 2: Advanced Sentiment Analysis
+### Challenge 1: Advanced Sentiment Analysis
 **Problem**: Basic sentiment analysis insufficient for nuanced interactions
 **Solution**:
 - Multi-dimensional emotion detection
 - Quality assessment algorithms
 - Adaptive response generation based on emotional state
 
-### Challenge 3: Scalable Analytics
+### Challenge 2: Scalable Analytics
 **Problem**: Real-time analytics with growing user base
 **Solution**:
 - Efficient data structures and caching
 - Progressive loading of analytics data
 - Optimized visualization rendering
 
-### Challenge 4: Performance Optimization
+### Challenge 3: Performance Optimization
 **Problem**: Maintaining responsiveness with enhanced features
 **Solution**:
 - Intelligent caching strategies
 - Asynchronous processing where possible
 - Memory-efficient data handling
 
-### Challenge 5: UI/UX Complexity
+### Challenge 4: UI/UX Complexity
 **Problem**: Balancing feature richness with usability
 **Solution**:
 - Progressive disclosure of features
 - Intuitive navigation design
 - Responsive, mobile-first approach
 
-## 🔮 Advanced Roadmap & Future Enhancements
+## 🔮 Roadmap & Future Enhancements
 
-### 🎯 Immediate Enhancements (v2.1)
+### 🎯 Immediate Enhancements (v2.4)
 - **Voice Integration**: Speech-to-text and text-to-speech
 - **Video Assessment**: Video interview capabilities
 - **AI Resume Parser**: Automatic resume analysis and skill extraction
@@ -442,7 +435,7 @@ az container create --resource-group talentscout-rg --name talentscout-app
 ```bash
 # Clone repository
 git clone <repository-url>
-cd PGAGI
+cd 
 
 # Create development environment
 python -m venv venv-dev
@@ -467,56 +460,8 @@ mypy .
 4. **Documentation**: Update documentation for new features
 5. **Performance**: Profile changes for performance impact
 
-## 📞 Support & Contact
-
-### 🆘 Getting Help
-- **📧 Email Support**: support@talentscout.ai
-- **💬 Community Chat**: [Discord/Slack Community]
-- **📖 Documentation**: [Comprehensive Wiki]
-- **🐛 Bug Reports**: [GitHub Issues]
-
-### 🏢 Enterprise Support
-- **🎯 Custom Solutions**: Tailored implementations
-- **🔧 Integration Support**: API and system integrations
-- **📊 Advanced Analytics**: Custom analytics solutions
-- **🚀 Performance Optimization**: Enterprise-grade optimization
-
 ## 📄 License & Legal
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Privacy Policy
-Comprehensive privacy policy available at: [Privacy Policy Link]
-
-### Terms of Service
-Full terms of service available at: [Terms of Service Link]
-
----
-
-## 🌟 Acknowledgments
-
-**Built with ❤️ by the TalentScout Team**
-
-### 🙏 Special Thanks
-- **Google Gemini AI**: Powering intelligent conversations
-- **Streamlit Community**: Amazing framework and community support
-- **Open Source Contributors**: Countless libraries and tools
-- **Beta Testers**: Early feedback and testing
-
-### 🏆 Awards & Recognition
-- 🥇 Best AI Innovation in HR Tech 2024
-- 🌟 Top Recruitment Tool of the Year
-- 💎 Excellence in User Experience Design
-
----
-
-<div align="center">
-
-**🚀 Empowering recruitment through intelligent automation**
-
-[Website](https://talentscout.ai) • [Demo](https://demo.talentscout.ai) • [Documentation](https://docs.talentscout.ai) • [Support](mailto:support@talentscout.ai)
-
-*Transforming the future of talent acquisition, one conversation at a time.*
-
-</div>
